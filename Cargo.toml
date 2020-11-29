@@ -1,0 +1,16 @@
+[package]
+name = "yaatla"
+version = "0.1.0"
+authors = ["Silap Aliyev"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Pick your poison:
+# tui-rs
+# termion # part of redox, low-level, terminal info
+# rustbox # termbox for rust
+# crossterm # cross-platform term stuff
+# pancurses-rs # (LGBTQ+) ncurses + pdcurses-sys
+# ncurses-rs # wrapper for ncurses
